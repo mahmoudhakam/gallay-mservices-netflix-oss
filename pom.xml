@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.gallary.microservice</groupId>
+    <artifactId>gallary-collector</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>Gallary code infra collector</name>
+    <description>Aggregator pom project for all Gallary services</description>
+    <packaging>pom</packaging>
+
+    
+    <developers>
+        <developer>
+            <id>0000</id>
+            <name>Mahmoud Abdel Hakam</name>
+            <email>se.hakam88@gmail.com</email>
+            <roles>
+                <role>
+                    Sr. Software Engineer
+                </role>
+                
+            </roles>
+        </developer>
+    </developers>
+
+    <modules>
+        <module>base/parent-build-base</module>
+        <module>base/gallary-cloud-base</module>
+        <module>netflix-cloud-infra/eureka-server</module>
+    </modules>
+</project>
