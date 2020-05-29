@@ -25,6 +25,22 @@
             </roles>
         </developer>
     </developers>
+    
+    <scm>
+        <connection>https://github.com/mahmoudhakam/gallay-mservices-netflix-oss.git</connection>
+        <developerConnection>git@github.com:mahmoudhakam/gallay-mservices-netflix-oss.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+	
+	 <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/mahmoudhakam/gallay-mservices-netflix-oss/issues</url>
+    </issueManagement>
+
+    <properties>
+        <maven.install.skip>true</maven.install.skip>
+        <maven.deploy.skip>true</maven.deploy.skip>
+    </properties>
 
     <modules>
         <module>base/parent-build-base</module>
